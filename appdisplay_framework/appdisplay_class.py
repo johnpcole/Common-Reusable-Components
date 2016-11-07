@@ -104,7 +104,7 @@ class DefineApplicationWindow:
 														(topleft.getcoordinates(), rectanglesize.getcoordinates()), 0)
 
 		# Draw outline
-		if (fillcolour != "") and (borderwidth != 0):
+		if (bordercolour != "") and (borderwidth != 0):
 			GUI.draw.rect(self.windowobject, self.colourlibrary.get(bordercolour),
 												(topleft.getcoordinates(), rectanglesize.getcoordinates()), borderwidth)
 
@@ -121,7 +121,7 @@ class DefineApplicationWindow:
 			GUI.draw.circle(self.windowobject, self.colourlibrary.get(fillcolour), (centre.getcoordinates()), radius, 0)
 
 		# Draw outline
-		if (fillcolour != "") and (borderwidth != 0):
+		if (bordercolour != "") and (borderwidth != 0):
 			GUI.draw.circle(self.windowobject, self.colourlibrary.get(bordercolour),
 																		(centre.getcoordinates()), radius, borderwidth)
 
