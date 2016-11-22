@@ -3,6 +3,7 @@
 # =========================
 
 .idea/
+.cache/
 _Source_/
 _OLD RATIO_/
 database/
