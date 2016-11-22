@@ -9,7 +9,7 @@ from . import vector_class as VectorClass
 def createblank():
 
 	newvector = VectorClass.DefineVector()
-	newvector.setfromvalues(0, 0)
+	newvector.setblank()
 	return newvector
 
 
@@ -21,7 +21,7 @@ def createblank():
 def createorigin():
 
 	newvector = VectorClass.DefineVector()
-	newvector.setfromvalues(0, 0)
+	newvector.setorigin(0, 0)
 	return newvector
 
 
