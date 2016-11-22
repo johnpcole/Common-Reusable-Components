@@ -21,7 +21,11 @@ def createblank():
 def createorigin():
 
 	newvector = VectorClass.DefineVector()
+<<<<<<< HEAD
 	newvector.setorigin()
+=======
+	newvector.setorigin(0, 0)
+>>>>>>> origin/master
 	return newvector
 
 
