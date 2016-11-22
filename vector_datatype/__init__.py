@@ -2,7 +2,8 @@
 
 # - createblank, createorigin fixed
 
-# ====================================================================================# Version 5.1
+# ====================================================================================#
+# Version 5.1
 
 # - getinverted, getswapped, getint, getfloat, getrotated, getscaled fixed
 
