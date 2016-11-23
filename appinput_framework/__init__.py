@@ -1,8 +1,7 @@
-Version 5.1
+# Version 5.1
 
-Renamed getcurrentmousebutton to calculatecurrentmousebutton
-setareastate updated to include valid state names
-getareastate added
+#getareaposition, fetareadimentions added
+#getareaobject removed
 
-# =======================================
+# =====================================================
 # Version 5.0
