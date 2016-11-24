@@ -1,4 +1,3 @@
-import math
 from . import vector_module as Vector
 
 
